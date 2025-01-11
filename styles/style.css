@@ -1,0 +1,359 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* first section style */
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 100px;
+
+}
+
+.first-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+height: 52px;
+padding: 15px 30px 15px 30px;
+    margin: 24px 100px;
+
+}
+
+/* second section style */
+
+.second-section> .second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+/* width: 1500px; */
+/* padding: 80px 100px 80px 100px; */
+margin: 100px;
+height: 560px;
+margin-top: 30px;
+
+}
+
+.second-title {
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 60px;
+}
+
+.second-subtitle {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 60px;
+margin-top: 0px;
+}
+
+.second-btn {
+    margin-left: 60px;
+    border-radius: 8px;
+
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+
+}
+
+.second-image {
+    margin-right: 60px;
+}
+
+/* third section style  */
+
+.third-section> .third-container {
+    margin: 0 100px;
+}
+
+.third-title {
+    margin-bottom: 20px;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.third-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* fourth section style  */
+
+.fourth-section {
+    display: flex;
+    gap: 0px;
+    margin: 32px 70px;
+}
+
+.fourth-conainer1 {
+    width: 410.67px;
+height: 325px;
+padding: 32px;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+
+}
+
+.fourth-title1 {
+    width: 346.67px;
+height: 24px;
+padding: 0px;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.fourth-subtitle1 {
+    width: 346.67px;
+height: 72px;
+padding: 0px;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fourth-btn1 {
+    /* width: 122px;
+height: 41px; */
+padding: 11px 20px 11px 20px;
+/* margin: 24px 0px; */
+border-radius: 8px;
+border: none;
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 17px;
+
+}
+
+
+/* fourth conainer2 style  */
+
+.fourth-conainer2 {
+    width: 410.67px;
+height: 325px;
+margin: 0px 24px;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+
+.fourth-title2 {
+    width: 346.67px;
+height: 24px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 7px;
+}
+
+.fourth-subtitle2 {
+    width: 346.67px;
+height: 48px;
+gap: 12;
+padding: 0px;   
+/* margin: 12px 0px; */
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+}
+
+.fourth-btn2 {
+    padding: 11px 20px 11px 20px;
+    /* margin: 10px 0px; */
+    border-radius: 8px;
+    margin-top: 25px;
+
+background: rgb(9, 161, 92);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* fourth section style  */
+
+.fourth-conainer3 {
+    width: 410.67px;
+height: 325px;
+padding: 24px;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+
+.fourth-title3 {
+    width: 362.67px;
+height: 24px;
+padding: 0px;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fourth-subtitle3 {
+    width: 362.67px;
+height: 48px;
+padding: 0px;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.fourth-btn3 {
+    padding: 11px 20px 11px 20px;
+    margin: 10px 0px;
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+border: none;
+margin-top: 42px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* fifth section style  */
+
+.fifth-section {
+    background:url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px; */
+    width: 1280px;
+height: 256px;
+padding: 10px 20px 48px 20px;
+margin: 32px 100px ;
+}
+
+.fifth-content {
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fifth-title {
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fifth-subtitle {
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
