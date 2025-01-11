@@ -324,8 +324,13 @@ text-align: left;
     /* background-position: 0px; */
     width: 1280px;
 height: 256px;
-padding: 10px 20px 48px 20px;
-margin: 32px 100px ;
+padding: 10px 2px 48px 20px;
+margin: 32px 100px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255), url(../assets/quote-bg.png);
 }
 
 .fifth-content {
@@ -357,3 +362,368 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+/* sixth section style  */
+
+.sixth-section {
+    width: 1280px;
+height: 120px;
+    margin: 32px 100px;
+}
+
+.sixth-title {
+    width: 1280px;
+    height: 48px;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.sixth-subtitle {
+    width: 1280px;
+height: 48px;
+padding: 0px;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* seventh section style */
+
+.seventh-section {
+    display: flex;
+    gap: 32px;
+padding: 48px;
+margin: 24px 100px;
+margin-bottom: 12px;
+border-radius: 24px;
+
+background: rgb(255, 255, 255);
+border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.seventh-image> img {
+    border-radius: 24px;
+}
+
+.seventh-title {
+    width: 744px;
+height: 38px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.seventh-subtitle-container {
+    width: 239px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.seventh-description {
+    width: 744px;
+height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.seventh-btn {
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* eight section style */
+
+.eight-section {
+    display: flex;
+    gap: 32px;
+padding: 48px;
+margin: 24px 100px;
+margin-bottom: 12px;
+border-radius: 24px;
+
+background: rgb(255, 255, 255);
+border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.eight-image> img {
+    border-radius: 24px;
+}
+
+.eight-title {
+    width: 744px;
+height: 38px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.eight-subtitle-container {
+    width: 239px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.eight-description {
+    width: 744px;
+height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.eight-btn {
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.seventh-section {
+    display: flex;
+    gap: 32px;
+padding: 48px;
+margin: 24px 100px;
+margin-bottom: 12px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.seventh-image> img {
+    border-radius: 24px;
+}
+
+.seventh-title {
+    width: 744px;
+height: 38px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.seventh-subtitle-container {
+    width: 239px;
+    height: 24px;
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.seventh-description {
+    width: 744px;
+height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.seventh-btn {
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* nine section style  */
+
+.nine-section {
+    text-align: center;
+    margin: 0 100px;
+    
+}
+
+.nine-title {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.nine-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* ten section style  */
+
+.ten-section {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ten-title1, .ten-title2, .ten-title3, .ten-title4 {
+    /* width: 240px; */
+height: 128px;
+padding: 40px;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+gap: 24px;
+background: rgb(198, 228, 214);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.ten-title1:hover, .ten-title2:hover,.ten-title3:hover, .ten-title4:hover {
+    
+    background-color: white;
+}
+
+
+.ten-input {   
+    padding: 40px;
+    width: 1050px;
+    height: 5px;
+    margin: 32px 180px;
+    padding: 20px 40px 20px 40px;
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+/* border: none;
+outline: none; */
+border: 1px solid rgba(51, 46, 46, 0.15);
+
+}
+
+.ten-btn {
+    text-align: center;
+}
+
+.ten-btn {
+    padding: 17px 34px 17px 34px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 670px;
+
+}
+
+/* elaven section style  */
+
